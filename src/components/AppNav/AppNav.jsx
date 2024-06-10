@@ -13,6 +13,8 @@ const AppNav = () => {
         </li>
         <li>
           <NavLink to="dashboard">Dashboard</NavLink>
+        </li><li>
+          <NavLink to="login">LogIn</NavLink>
         </li>
       </ul>
     </nav>

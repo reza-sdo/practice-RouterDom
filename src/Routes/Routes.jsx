@@ -8,6 +8,7 @@ import Dashboard from "../pages/Dashboard/Dashboard";
 import Profile from "../pages/Dashboard/Profile/Profile";
 import Payments from "../pages/Dashboard/Payments/Payments";
 import Post from "../pages/Posts/Post";
+import Login from "../pages/Login/Login";
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
         <Route index element={<Home />} />
         <Route path="posts/:id" element={<Post />} />
         <Route path="posts" element={<Posts />} />
+        <Route path="login" element={<Login />} />
         <Route path="dashboard" element={<DashLayout />}>
           <Route index element={<Dashboard />} />
           <Route path="profile" element={<Profile />} />
